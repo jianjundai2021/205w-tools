@@ -4,6 +4,8 @@
 #
 # Notes:
 # currently, excluding 'DW_MPD_Viib_Outer' files, as they are too big
+# 
+# 
 
 
 #!/bin/bash
@@ -21,7 +23,6 @@ search_string_2="cpu time"
 
 # Define the maximum age of files in days
 max_age_days=35
-
 
 # Initialize or create the output file (overwrite if it exists)
 > "$output_file"
